@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComparsionLibrary", "ComparsionLibrary\ComparsionLibrary.csproj", "{EE3E09FF-3900-4FDA-951A-55DDF6669C37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComparsionLibrary.Tests", "ComparsionLibrary.Tests\ComparsionLibrary.Tests.csproj", "{3C62265F-5F48-4097-8207-A7EAB3B991E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E955871D-CC65-4225-90DB-D2C3A82D3794}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		NaturalOrderComparer.vsmdi = NaturalOrderComparer.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = NaturalOrderComparer.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE3E09FF-3900-4FDA-951A-55DDF6669C37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE3E09FF-3900-4FDA-951A-55DDF6669C37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE3E09FF-3900-4FDA-951A-55DDF6669C37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE3E09FF-3900-4FDA-951A-55DDF6669C37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C62265F-5F48-4097-8207-A7EAB3B991E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C62265F-5F48-4097-8207-A7EAB3B991E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C62265F-5F48-4097-8207-A7EAB3B991E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C62265F-5F48-4097-8207-A7EAB3B991E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
